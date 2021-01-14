@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main .diagram {
+    background-color: #666;
+    width: 100%;
+    flex-grow: 1;
+    padding: 2px;
+    position: relative;
+}
+
+.main .diagram .diagram-action {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #bbb;
+}
+
+.main .diagram .diagram-helper {
+    background-color: cornsilk;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 10px;
+    min-width: 200px;
+    cursor: pointer;
+}
+
+.main .diagram .diagram-action input {
+    padding: 10px;
+    font-size: 0.9em;
+    margin: 10px;
+    min-width: 200px;
+    cursor: pointer;
+}
+
+.main > form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main > form > input {
+    padding: 10px;
+    font-size: 1.1em;
+    margin: 10px 0;
+    min-width: 500px;
+}
